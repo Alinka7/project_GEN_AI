@@ -39,8 +39,8 @@ elif menu=='Генерація опису товару':
   ingredients = st.text_area('Ключові інгредієнти')
 
 
-  tokenizer = AutoTokenizer.from_pretrained("Alinkaaa1/Llama-2-7b_ukr_item_descr")
-  model = AutoModelForCausalLM.from_pretrained("Alinkaaa1/Llama-2-7b_ukr_item_descr")
+  tokenizer = AutoTokenizer.from_pretrained("Alinkaaa1/Llama-2-7b_ukr_item_descr", trust_remote_code=True)
+  model = AutoModelForCausalLM.from_pretrained("Alinkaaa1/Llama-2-7b_ukr_item_descr", trust_remote_code=True)
   if st.button('Передати дані до моделі'):
       if product_name and brand_name and ingredients:
           input_string = f"Назва: {product_name}; Бренд: {brand_name}; Ключові інгредієнти: {ingredients}"
