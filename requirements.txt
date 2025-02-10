@@ -1,3 +1,4 @@
-transformers
+transformers==4.48.2
 streamlit
 sentencepiece
+torch==2.5.1+cu124 torchvision==0.14.1+cu124 -f https://download.pytorch.org/whl/cu124/torch_stable.html
