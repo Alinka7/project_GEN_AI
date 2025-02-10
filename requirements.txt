@@ -1,2 +1,4 @@
 transformers==4.48.2
 torch
+streamlit
+Python 3.11.5
