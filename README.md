@@ -20,7 +20,18 @@
    source venv/bin/activate  # Для Linux/Mac
    venv\Scripts\activate     # Для Windows
    pip install -r requirements.txt
+
+## Інтеграція з Streamlit
+
+Для запуску інтеграції на Streamlit, вам потрібно:
+
+1. Запустити файл `app.py`:
    ```bash
+   streamlit run app.py
+
+Перейдіть за посиланням, яке надасть вам Streamlit для доступу до вашого веб-додатку.
+Приклад інтеграції можна знайти у файлі streamlit_integration.ipynb, де детально показано, як налаштувати та запустити застосунок на Streamlit.
+
 
 
 
