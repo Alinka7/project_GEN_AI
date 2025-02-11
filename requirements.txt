@@ -4,3 +4,13 @@ streamlit
 sentencepiece
 torch==2.5.1+cu124
 bitsandbytes==0.45.2 
+huggingface_hub
+datasets
+peft
+accelerate
+trl==0.12.0
+pandas
+numpy
+
+
+
