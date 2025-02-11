@@ -3,4 +3,5 @@ transformers==4.48.2
 streamlit
 sentencepiece
 torch==2.5.1+cu124
+bitsandbytes
 
